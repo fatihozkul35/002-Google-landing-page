@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffff;
+}
+
+/***** Navbar Menü styles *****/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.navbarRight {
+  display: flex;
+  align-items: center;
+}
+.navbarRight div button {
+  padding: 0.3rem 1rem;
+  color: white;
+  background-color: #4285f4;
+  border-radius: 5px;
+}
+.navbarRight div button:hover {
+  color: #4285f4;
+  background-color: white;
+  cursor: pointer;
+}
+.header {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .searchInput {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 3px solid rgb(167, 186, 207);
+  border-radius: 25px;
+}
+.header button img {
+  height: 1rem;
+  padding: 10px;
+}
+input {
+  border: 0px solid white;
+  width: 90%;
+  height: 2rem;
+}
+.buttons button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #efefef;
+  border: 0px;
+}
+.buttons button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.header p a {
+  color: blue;
+}
